@@ -6,7 +6,6 @@
   "homepage": "https://charlie-leo.github.io/health_portfolio/",
   "scripts": {
     "dev": "vite",
-    "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "test:unit": "vitest",
     "prepare": "cypress install",
@@ -16,6 +15,8 @@
     "type-check": "vue-tsc --build",
     "lint": "eslint . --fix",
     "format": "prettier --write src/",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },

@@ -13,17 +13,43 @@ const router = createRouter({
     {
       path: '/about',
       name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue'),
+    },
+    {
+      path: '/statistics',
+      name: 'statistics',
+      component: () => import('../views/StatisticsView.vue'),
     },
     {
       path: '/questions',
       name: 'questions',
       component: QuestionsView,
     },
+    {
+      path: "/recipes",
+      name: "recipes",
+      component: () => import("../views/RecipesView.vue"),
+    },
+    {
+      path: "/records",
+      name: "records",
+      component: () => import("../views/MeetingMinutesView.vue"),
+    }
   ],
+
+  // ✅ Add scroll behavior for hash navigation
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    }
+    if (to.hash) {
+      return {
+        el: to.hash,
+        behavior: 'smooth', // smooth scrolling
+      }
+    }
+    return { top: 0 }
+  },
 })
 
 export default router

@@ -2,11 +2,30 @@
   <nav class="header-nav">
     <div class="logo">DPMHS</div>
     <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#research">Research</a></li>
-      <li><a href="#tips">Tips & Resources</a></li>
-      <li><a href="#stories">Stories</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li>
+        <router-link :to="{ path: '/', hash: '#home' }">Home</router-link>
+      </li>
+      <li>
+        <router-link :to="{ path: '/', hash: '#research' }">Research</router-link>
+      </li>
+      <li>
+        <router-link to="/statistics">Statistics</router-link>
+      </li>
+      <li>
+        <router-link to="/recipes">Recipes</router-link>
+      </li>
+      <li>
+        <router-link to="/records">Records</router-link>
+      </li>
+      <li>
+        <router-link :to="{ path: '/', hash: '#tips' }">Tips & Resources</router-link>
+      </li>
+      <li>
+        <router-link :to="{ path: '/', hash: '#stories' }">Stories</router-link>
+      </li>
+      <li>
+        <router-link :to="{ path: '/', hash: '#contact' }">Contact</router-link>
+      </li>
     </ul>
   </nav>
 </template>

@@ -1,6 +1,9 @@
 <template>
   <nav class="header-nav">
-    <div class="logo">DPMHS</div>
+    <div class="logo">
+      <img src="/src/assets/logo.png" style="height: 30px">
+      DPMHS
+    </div>
     <ul>
       <li>
         <router-link :to="{ path: '/', hash: '#home' }">Home</router-link>
@@ -48,6 +51,10 @@
   font-size: 1.2rem;
   letter-spacing: 0.1em;
   color: #6b7c7c;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 ul {
   display: flex;

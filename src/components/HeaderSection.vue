@@ -6,9 +6,6 @@
         <router-link :to="{ path: '/', hash: '#home' }">Home</router-link>
       </li>
       <li>
-        <router-link :to="{ path: '/', hash: '#research' }">Research</router-link>
-      </li>
-      <li>
         <router-link to="/statistics">Statistics</router-link>
       </li>
       <li>
@@ -16,6 +13,9 @@
       </li>
       <li>
         <router-link to="/records">Records</router-link>
+      </li>
+      <li>
+        <router-link :to="{ path: '/', hash: '#research' }">Research</router-link>
       </li>
       <li>
         <router-link :to="{ path: '/', hash: '#tips' }">Tips & Resources</router-link>

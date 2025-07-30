@@ -5,6 +5,7 @@ import ResearchFindings from '../components/ResearchFindings.vue'
 import TipsSection from '../components/TipsSection.vue'
 import MeetTeam from '../components/MeetTeam.vue'
 import StoriesSection from '@/components/StoriesSection.vue'
+import HabitsSection from '@/components/HabitsSection.vue'
 </script>
 
 <template>
@@ -14,7 +15,7 @@ import StoriesSection from '@/components/StoriesSection.vue'
     <ResearchFindings />
     <TipsSection />
     <StoriesSection/>
-<!--    <HabitsSection />-->
+    <HabitsSection />
     <MeetTeam />
 <!--    <ReferencesSection />-->
   </div>

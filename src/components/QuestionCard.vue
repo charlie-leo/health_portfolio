@@ -1,23 +1,41 @@
 <template>
-    <div style="color: #3a4a4a">
-      <h3>{{ question.text }}</h3>
-      <div v-for="(opt, i) in question.options" :key="i" >
+  <div class="question-card">
+    <h3 style="font-weight: bold">{{ question.text }}</h3>
+    <div class="options-row">
+      <div v-for="(opt, i) in question.options" :key="i" class="option-item">
         <input
           type="radio"
           :name="question.text"
           :value="opt.value"
-          :checked = "modelValue === opt.value"
+          :checked="modelValue === opt.value"
           @change="$emit('update:modelValue', opt.value)"
         />
         <label>{{ opt.label }}</label>
       </div>
     </div>
-  </template>
+  </div>
+</template>
 
+<script setup lang="ts">
+defineProps(['question', 'modelValue'])
+defineEmits(['update:modelValue'])
+</script>
 
+<style scoped>
+.question-card {
+  margin-bottom: 1rem;
+}
 
-  <script setup lang="ts">
+.options-row {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping on small screens */
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
 
-  defineProps(['question', 'modelValue'])
-  defineEmits(['update:modelValue'])
-  </script>
+.option-item {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+</style>

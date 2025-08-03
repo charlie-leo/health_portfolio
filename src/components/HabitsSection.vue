@@ -5,10 +5,10 @@
     </div>
     <div class="habits-right">
       <nav>
-        <router-link to="/questions">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSduFuEQwbU2DMc626VeJUdqoy_BKnw6Q2y7nDMH_APHFtqfIQ/viewform?usp=header" target="_blank" rel="noopener noreferrer">
           <span class="italic">Are <b>your</b> Habits Helping or Hurting?</span>
           <span class="arrow">&rarr;</span>
-        </router-link>
+        </a>
       </nav>
     </div>
   </section>

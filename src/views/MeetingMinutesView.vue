@@ -64,14 +64,14 @@
         <td>Stories/Incidents</td>
         <td>Akshita</td>
         <td>Gathered real incidents and case studies to enhance content</td>
-        <td>In Progress (Selection)</td>
+        <td>Completed</td>
       </tr>
       <tr>
         <td>08 July</td>
         <td>Logo Design, Color & Formatting</td>
         <td>Kritika</td>
         <td>Logo drafts, theme finalization</td>
-        <td>In Progress (Finalizing)</td>
+        <td>Completed</td>
       </tr>
       <tr>
         <td>10 July</td>

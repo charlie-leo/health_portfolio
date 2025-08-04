@@ -73,6 +73,62 @@
         <td>Logo drafts, theme finalization</td>
         <td>In Progress (Finalizing)</td>
       </tr>
+      <tr>
+        <td>10 July</td>
+        <td>Logo Design, Color & Formatting</td>
+        <td>Kritika</td>
+        <td>Logo drafts, theme finalization</td>
+        <td>Completed</td>
+      </tr>
+      <tr>
+        <td>13 July</td>
+        <td>Information gathering and content for website</td>
+        <td>Akshita</td>
+        <td>Content for website</td>
+        <td>Completed</td>
+      </tr>
+      <tr>
+        <td>17 July</td>
+        <td>Home screen and sections</td>
+        <td>Kritika</td>
+        <td>Design the homescreen and sections</td>
+        <td>Completed</td>
+      </tr>
+      <tr>
+        <td>20 July</td>
+        <td>Statistics Content and screen</td>
+        <td>Akshita</td>
+        <td>Added Chart to visualize the data.</td>
+        <td>Completed</td>
+      </tr>
+      <tr>
+        <td>20 July</td>
+        <td>Research about the Food and Recipes and add the details in websites</td>
+        <td>Kritika</td>
+        <td>Added common meals, Everyday Meal, Added helping websites link</td>
+        <td>50% Completed</td>
+      </tr>
+      <tr>
+        <td>24 July</td>
+        <td>Research about the Food and Recipes and add the details in websites</td>
+        <td>Kritika</td>
+        <td>Added common meals, Everyday Meal, Added helping websites link</td>
+        <td>100% Completed</td>
+      </tr>
+      <tr>
+        <td>27 July</td>
+        <td>Added the Records to the website</td>
+        <td>Akshita</td>
+        <td>Record section in the website</td>
+        <td>Completed</td>
+      </tr>
+      <tr>
+        <td>27 July</td>
+        <td>Take habit survey using google form and collect the data in the excel sheet.</td>
+        <td>Kritika</td>
+        <td>Google form, Link Excel sheet</td>
+        <td>100% Completed</td>
+      </tr>
       </tbody>
     </table>
 
